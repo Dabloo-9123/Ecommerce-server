@@ -1,7 +1,10 @@
 const express=require('express')
-const { userRouter } = require('./routing/userRouter')
+const cors=require('cors')
+const { userRouter } = require('./routing/userRouter');
+const {connection} = require('./confiq/db');
 
 const app = express();
+app.use(cors())
 // const bodyParser=require('body-parser');
 app.use(express.json())
 app.use('/api',userRouter)
@@ -9,8 +12,14 @@ app.get('/',(req,res)=>{
     res.send('Home Page')
 })
 
-app.listen(5000,()=>{
-    console.log("The server is live at port number 5000");
+app.listen(5000,async()=>{
+    try{
+        await connection()
+        console.log("Server is running at port number 5000");
+    }
+    catch(err){
+        console.log(err,"error during starting the  server");
+    }
 })
 
 

@@ -1,6 +1,8 @@
 
 const arr=[];
-const bcrypt=require('bcrypt')
+const bcrypt=require('bcrypt');
+const database=require('../confiq/db')
+
 const register=(req,res)=>{
     const data = req.body;
     const details=arr.find((item)=>{

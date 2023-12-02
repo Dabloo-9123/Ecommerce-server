@@ -6,7 +6,7 @@ const userRouter=require('express').Router();
 
 userRouter.post('/register',register)
 userRouter.post('/login',login)
-userRouter.gets('/data',collectdata)
+userRouter.get('/data',collectdata)
 module.exports={userRouter}
 
 

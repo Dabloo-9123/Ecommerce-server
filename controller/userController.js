@@ -1,7 +1,8 @@
 
 const arr=[];
 const bcrypt=require('bcrypt');
-const database=require('../confiq/db')
+const {database}=require('../confiq/db')
+const usercollection=database.collection("userDetails")
 
 const register=(req,res)=>{
     const data = req.body;

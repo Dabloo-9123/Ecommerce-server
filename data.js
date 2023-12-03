@@ -120,40 +120,223 @@ const data = [
   },
   {
     catergory: "mobile",
-    name: "",
-    price: "",
-    description: "",
-    rating: "",
-    image: "",
+    name: "Samsung Galaxy A05s (6GB RAM)",
+    price: "₹ 14999.00",
+    description: ' 17.08cm (6.7") FHD+ display 50 MP Main Camera Triple Camera Up to 12GB RAM with RAM Plus',
+    rating: "3.9",
+    image: "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a057fzkhins/gallery/in-galaxy-a-sm-a057fzkhins-black-black-538631005?$592_472_PNG$",
     id: 14,
   },
   {
     catergory: "mobile",
-    name: "",
-    price: "",
-    description: "",
-    rating: "",
-    image: "",
-    id: 2,
+    name: "Samsung Galaxy M33 5G",
+    price: "16,499",
+    description: "Exynos 1280 Octa Core 2.4GHz 5nm Processor with the 12 band support for a True 5G experience16.72 centimeters (6.6-inch) LCD Display, FHD+ resolution, 1080x2400 pixels protected by Gorilla Glass 5Versatile Quad camera setup-50MP (F1.8)+ 5MP (F2.2/UW- 123 FOV) + 2MP (F2.4/Depth) + 2MP (F2.4/Macro) QuadCamera| 8MP (F1.8) Front Camera",
+    rating: "5",
+    image: "https://vlebazaar.in/image/cache/catalog/Samsung-Galaxy-M33-5G-Deep-Ocean-Blue-8GB-128GB-Storage-6000mAh-Battery-/Samsung-Galaxy-M33-5G-Deep-Ocean-Blue-8GB-128GB-Storage-6000mAh-Battery-Upto-16G-1100x1100h.jpg",
+    id: 15,
   },
   {
     catergory: "mobile",
-    name: "",
-    price: "",
-    description: "",
-    rating: "",
-    image: "",
-    id: 2,
+    name: "Samsung Galaxy S21 FE 5G (Graphite, 8GB, 128GB Storage)",
+    price: "33,300",
+    description: "16.28cm (6.4-inch) Dynamic AMOLED 2X Display with120Hz Refresh rate for Smooth scrolling. Intelligent Eye Comfort Shield, New 19.5:9 Screen Ratio with thinner bezel, 1080x2340 (FHD+) Resolution",
+    rating: "4.5",
+    image: "https://m.media-amazon.com/images/I/81cHpJNr07L._SX679_.jpg",
+    id: 16,
   },
   {
     catergory: "mobile",
-    name: "",
-    price: "",
-    description: "",
-    rating: "",
-    image: "",
-    id: 2,
+    name: "Samsung Galaxy A54 5G",
+    price: "38,999",
+    description: 'Limited slots per day: Choose the "with Setup" slot (if available) during checkout to avail the service Includes Open box inspection: expert will take back the product and help trigger refund in case of any product issues at doorstep',
+    rating: "5",
+    image: "https://m.media-amazon.com/images/I/71DjLEgCUYL._SX679_.jpg",
+    id: 17,
   },
+  {
+    catergory:'laptop',
+    name:'Dell 15 Vostro 3520 Laptop, Intel Core i3-1115G4',
+    price:'37490',
+    description:'Processor: Intel Core i3-1115G4 Processor (up to 4.10 GHz, 6MB Cache, 2 Cores)RAM: 8 GB, 1 x 8 GB, DDR4, 3200 MHz // Storage: 512GB SSD',
+    rating:'3.9',
+    image:'https://m.media-amazon.com/images/I/41R0+0p8l+L._SY300_SX300_.jpg',
+    id:18
+  },
+  {
+    catergory:'laptop',
+    name:'Dell 15 Vostro 3510 Laptop, Intel Core i5-1135G7',
+    price:'51,990',
+    description:'Software: Pre-Loaded Windows 11 Home with Lifetime Validity | MS Office Home and Student 2021 with lifetime validity| McAfee Multi Device Security 15-month subscription Graphics & Keyboard: Integrated Onboard Graphics & Standard Keyboard // Display: 15.6" FHD WVA AG Narrow Border',
+    rating:'4.2',
+    image:'https://m.media-amazon.com/images/I/51ESP0tpoBL._SX569_.jpg',
+    id:19
+  },
+  {
+    catergory:'laptop',
+    name:'Dell G15 5520 Gaming Laptop, Intel i5-12500H/16GB DDR',
+    price:'77,490',
+    description:'Processor : 12th Gen Intel Core i5-12500H | Up to 4.50 Ghz | 12 cores | 16 Threads | 18 MB Cache | 45 W TDP // Memory : 16 GB, 2 x 8 GB, DDR5, 4800 MHz // Storage :  1TB SSD Display: 15.6" FHD 1920 x 1080 WVA, Non-Touch, Anti-Glare| 120 Hz ( 9ms ) | 250 nits | 45% NTSC',
+    rating:'4.9',
+    image:'https://m.media-amazon.com/images/I/51jUcRK69ML._SX425_.jpg',
+    id:20
+  },
+  {
+    catergory:'laptop',
+    name:'Dell 15 Vostro 3510 Laptop, Intel Core i5-1135G7',
+    price:'47,990',
+    description:'Processor: Intel Core i5-1135G7 11th Generation Processor(up to 4.20 GHz) 8MB Cache, 4 Cores RAM & Storage: 8 GB, 1 x 8 GB, DDR4, 2666 MHz, (2 DIMM Slots, Expandable up to 16GB) & 1TB HDD + 256GB SSD',
+    rating:'4',
+    image:'https://m.media-amazon.com/images/I/51ESP0tpoBL._SX569_.jpg',
+    id:21
+  },
+  {
+    catergory:'laptop',
+    name:'Dell Inspiron 5430 13th Gen Laptop, Intel i5-1335U/16GB/ 512GB SSD/14.0" (35.56Cms)',
+    price:'71,553',
+    description:'bout this item Processor: 13th Gen Intel Core i5-1335U (up to 4.60 GHz) 10 Cores, 12MB Cache RAM: 16GB 4800MHz LPDDR5 Memory Onboard // Storage: 512GB SSD',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/81y84xvX86L._SX569_.jpg',
+    id:22
+  },
+  {
+    catergory:'laptop',
+    name:'HP Laptop 15s, 12th Gen Intel Core i3-1215U, 15.6-inch (39.6 cm)',
+    price:'40,836',
+    description:'【6-core 12th Gen Intel Core i3-1215U】 8 threads and 10MB L3 cache deliver high performance and instant responsiveness. The Intel UHD graphics help you dive into crisp, stunning visuals.【Upgraded memory and storage】 8GB DDR4 RAM and 512GB SSD help you undertake improved multitasking with ample of storage and higher-bandwidth memory. Now, create, browse, and work as you please.',
+    rating:'4',
+    image:'https://m.media-amazon.com/images/I/71Blj59DzzL._SX425_.jpg',
+    id:23
+  },
+  {
+    catergory:'laptop',
+    name:'HP Laptop 15s, AMD Ryzen 3 5300U, 15.6-inch (39.6 cm)',
+    price:'35,490',
+    description:'【4-core AMD Ryzen 3 5300U】8 threads and 4MB L3 cache deliver powerful performance and swift responsiveness. The AMD Radeon graphics help you experience crisp visuals with vivid clarity.',
+    rating:'3.5',
+    image:'https://m.media-amazon.com/images/I/71xakkiDCNL._SX569_.jpg',
+    id:24
+  },
+  {
+    catergory:'laptop',
+    name:'HP Laptop 15s, 12th Gen Intel Core i3-1215U, 15.6-inch (39.6 cm)',
+    price:'44,780',
+    description:'out this item 【6-core 12th Gen Intel Core i3-1215U】Efficiently multitask with 12th Gen Intel Core i3-1215U processor, boasting 8 threads and 10MB L3 cache. Experience heightened productivity and responsiveness.',
+    rating:'4.2',
+    image:'https://m.media-amazon.com/images/I/71W5FiBP6WL._SX425_.jpg',
+    id:25
+  },
+  {
+    catergory:'laptop',
+    name:'HP Laptop 15, 12th Gen i5-1235U, 15.6-inch (39.6 cm), FHD',
+    price:'54,880',
+    description:'Processor: Intel Core i5-1235U (up to 4.4 GHz with Intel Turbo Boost Technology,12 MB L3 cache, 10 cores, 12 threads)| Memory: 8 GB DDR4-3200 MHz RAM (1 x 8 GB)| Storage: 512 GB PCIe NVMe M.2 SSD',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/71J17FvBvtL._SX569_.jpg',
+    id:26
+  },
+  {
+    catergory:'laptop',
+    name:'HP 15s, AMD Ryzen 3 5300U, 15.6 inch(39.6cm)',
+    price:'32,990',
+    description:'Processor: AMD Ryzen 3 5300U(up to 3.8 GHz max boost clock(2i),4 MB L3 cache, 4 cores, 8 threads)|Memory: 8 GB DDR4-3200 SDRAM (1 x 8 GB) Upto 16 GB DDR4-3200 MHz RAM (2 x 8 GB)|Storage: 512 GB PCIe NVMe M.2 SSD',
+    rating:'4',
+    image:'https://m.media-amazon.com/images/I/712Jcrkd8gL._SX569_.jpg',
+    id:27
+  },
+  {
+    catergory:'laptop',
+    name:'ASUS TUF Gaming A15 (2023) 90WHr Battery, AMD Ryzen 7 7735HS',
+    price:'1,05,490',
+    description:'Memory: 16GB (8GB SO-DIMM *2) DDR5 4800 MHz Support Up to 32GB 2x SO-DIMM slots | Storage: 512GB PCIe 4.0 NVMe M.2 SSD Play over 100 high-quality PC games, plus new and upcoming blockbusters on day one like Halo Infinite, Forza Horizon 5, and Age of Empires and one month of Game Pass-including EA Play',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/71kEsKWBc2L._SX425_.jpg',
+    id:28
+  },
+  {
+    catergory:'laptop',
+    name:'ASUS Vivobook 15, Intel Core i5-12500H 12th Gen',
+    price:'48,990',
+    description:'Processor: Intel Core i5-12500H Processor 2.5 GHz (18M Cache, up to 4.5 GHz, 4P+8E cores) Memory: 8GB (4GB DDR4 on board + 4GB SO-DIMM) DDR4 | Storage: 512GB M.2 NVMe PCIe 3.0 SSD',
+    rating:'4.9',
+    image:'https://m.media-amazon.com/images/I/714HajEtOIL._SX679_.jpg',
+    id:29
+  },
+  {
+    catergory:'laptop',
+    name:'ASUS TUF Gaming F15, 15.6"(39.62 cms) FHD 144Hz',
+    price:'80,990',
+    description:'Processor: Intel Core i7-11800H Processor 2.3 GHz (24M Cache, up to 4.6 GHz, 8 Cores) Play over 100 high-quality PC games, plus new and upcoming blockbusters on day one like Halo Infinite, Forza Horizon 5, and Age of Empires IV and one month of Game Pass-including EA Play.',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/51xKHE2Sc7L._SX300_SY300_QL70_FMwebp_.jpg',
+    id:30
+  },
+  {
+    catergory:'laptop',
+    name:'ASUS Vivobook 15, Intel Core i7-12650H 12th Gen',
+    price:'60,990',
+    description:'Processor: Intel Core i7-12650H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 10 cores) Memory: 16GB (8GB onboard + 8GB SO-DIMM) DDR4 RAM | Storage: 512GB M.2 NVMe PCIe 3.0 SSD',
+    rating:'4.2',
+    image:'https://m.media-amazon.com/images/I/71c0GSxtEEL._SX569_.jpg',
+    id:31
+  },
+  {
+    catergory:'laptop',
+    name:'ASUS [SmartChoice] Vivobook S15 OLED 2022',
+    price:'67,970',
+    description:'Processor: 12th Gen Intel EVO Core i5-12500H, 2.5 GHz Base Speed, 18MB Cache, Up to 4.5 GHz Max Turbo Speed, 12 Cores ( 4P+8E ), 16 Threads',
+    rating:'4.9',
+    image:'https://m.media-amazon.com/images/I/71s8bpZQfJL._SX569_.jpg',
+    id:32
+  },
+
+  {
+    catergory:'laptop',
+    name:'ASUS [SmartChoice] Vivobook 15, Intel Celeron N4020',
+    price:'25,000',
+    description:'Processor: Intel Celeron N4020 Processor Laptop 1.1 GHz (4M Cache, up to 2.8 GHz, 2 cores) Memory: 8GB DDR4 SO-DIMM with | Storage: 512GB M.2 NVMe PCIe 3.0 SSD',
+    rating:'3.7',
+    image:'https://m.media-amazon.com/images/I/414DPdYPVnL._SX300_SY300_QL70_FMwebp_.jpg',
+    id:18
+  },
+  {
+    catergory:'',
+    name:'',
+    price:'',
+    description:'',
+    rating:'',
+    image:'',
+    id:18
+  },
+  {
+    catergory:'',
+    name:'',
+    price:'',
+    description:'',
+    rating:'',
+    image:'',
+    id:18
+  },
+
+  {
+    catergory:'',
+    name:'',
+    price:'',
+    description:'',
+    rating:'',
+    image:'',
+    id:18
+  },
+  {
+    catergory:'',
+    name:'',
+    price:'',
+    description:'',
+    rating:'',
+    image:'',
+    id:18
+  },
+
 ];
 
 module.exports=data

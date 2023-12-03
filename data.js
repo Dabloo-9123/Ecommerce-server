@@ -297,16 +297,16 @@ const data = [
     description:'Processor: Intel Celeron N4020 Processor Laptop 1.1 GHz (4M Cache, up to 2.8 GHz, 2 cores) Memory: 8GB DDR4 SO-DIMM with | Storage: 512GB M.2 NVMe PCIe 3.0 SSD',
     rating:'3.7',
     image:'https://m.media-amazon.com/images/I/414DPdYPVnL._SX300_SY300_QL70_FMwebp_.jpg',
-    id:18
+    id:33
   },
   {
-    catergory:'',
+    catergory:'laptop',
     name:'',
     price:'',
     description:'',
     rating:'',
     image:'',
-    id:18
+    id:'34'
   },
   {
     catergory:'',

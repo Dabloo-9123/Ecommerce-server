@@ -7,7 +7,7 @@ const data = [
       "More watts. More battery. More fun. Cram more fun into your day with 67W SUPERVOOC fast charging that gets the hefty 5,000mAh battery up to one days power in just 30 minutes. More zoom, please! Telephoto lens, shmelephoto lens! Who needs telephoto lenses when your main camera has 3? lossless zoom? Get up close and personal with your subjects for vivid details and blur-free photos Pump up the volume Hear all your alerts and leave your portable speakers at home with 200% Ultra Volume Mode. Make your favorite audio as live and loud as you want it to be",
     rating: "5",
     image:
-      "https://lh3.googleusercontent.com/spp/ABYooDpkUyyB042KsOKHpsq39LuUfIH1FYC0X4mCBRO_-VPVvP-U-5sCpkJ8A7C9AcNgEjs5et7hKv2GSRGSMso1vdvcTQaD1nE65QfsQY0i4n4UbtAdLrUINhJaTdL8bzPRXKPw3v5TZOp9sEny-merMXWrxuw7rwERlUu17e4Ycg1iR6UTo_CA3FBKyTTkuEcMBGkYBscCeTw=s512-rw-pd-pc0x00ffffff",
+      "https://m.media-amazon.com/images/I/41TmlehQnaL._SX300_SY300_QL70_FMwebp_.jpg",
     id: 1,
   },
   {
@@ -16,7 +16,7 @@ const data = [
     price: "16,999",
     description: "Big 120Hz display = more battery life Youd think a big 16.73cm (6.59?) 120Hz display? would put a huge dent in your battery life. But Nord CE 2 Lites display is an energy-saving LCD. That means more time for watching your favourite shows in FHD + resolution.",
     rating: "4.5",
-    image: "https://lh3.googleusercontent.com/spp/ABYooDowZHLyGVYvFHAVhUAAG2llDbs97cCsItsfEzPmhptsvQXGFO9HkEuUFbFXSC-jg-Q0ZYk8p87ljWFC5lw-WC0eOA_Ag7C2vgIdPW66zF9SZD6nG8KDZrHYu54BBiJ5EU88dcWmImwhobLAI6tL7ahiJHSfj-7ST_MoYPkyE-i2y5Mc8dTz4CO8VqGDZcfVlFWl-Vfn=s512-rw-pd-pc0x00ffffff",
+    image: "https://m.media-amazon.com/images/I/41M++0dpooL._SY300_SX300_.jpg",
     id: 2,
   },
   {
@@ -25,7 +25,7 @@ const data = [
     price: "27,999",
     description: "17.01 cm (6.7 Inch),12 GB RAM 256 GB ROM,Qualcomm Snapdragon 782G,OxygenOS based on Android 13.1,50MP + 8MP + 2MP Rear Camera,16MP Selfie Camera,5000 mAh Battery and more in the OnePlus Nord CE3 5G 256GB, 12GB RAM, Aqua Surge, Mobile Phone",
     rating: "4.9",
-    image: "https://lh3.googleusercontent.com/spp/ABYooDpHqOi894pkQkTpIpCYLJvEt9bHDt-vx-RMa6CbMwAbdKwlNrCqbF44x67FpDDUfugiDkc3zU8b0qXyeKhDjIF5zBTbUI71Ghu7su8ys0Lvl3jv9i1Q_i5DSq0g3Y-rJK0AQa-l2w0OZ6lgK9OdBBOSy_zlC69R2BrOPl1aXWJMHvANvi1sKs7OaMXEYCwO3JJr5pNKIKg=s512-rw-pd-pc0x00ffffff",
+    image: "https://m.media-amazon.com/images/I/41roqqt41ZL._SX300_SY300_QL70_FMwebp_.jpg",
     id:3,
   },
   {
@@ -52,7 +52,7 @@ const data = [
     price: "27,999",
     description: "17.01 cm (6.7 Inch),12 GB RAM 256 GB ROM,Qualcomm Snapdragon 782G,OxygenOS based on Android 13.1,50MP + 8MP + 2MP Rear Camera,16MP Selfie Camera,5000 mAh Battery and more in the OnePlus Nord CE3 5G 256GB, 12GB RAM, Grey Shimmer, Mobile Phone    ",
     rating: "3.8",
-    image: "https://lh3.googleusercontent.com/spp/ABYooDqA4ZpPya2ealGq3Yr8zKPasrLpMw0Qz-21G3NBefT0mtpeSItKjleEd9jm2UzLzwCfobs6Ks-6IxW885MA7trQV2Pi2zzZRjCzbwO37BvInfvLswrlFwr_gr3CfqcN-zX7HMCHSKAopheSWsSbxyReYzUtsYKhFr3KeD8jMCBGsuxVt7ytyeLRQbtxtIxN6UjaUTRtFw=s512-rw-pd-pc0x00ffffff",
+    image: "https://m.media-amazon.com/images/I/418PZ2AjVKL._SX300_SY300_QL70_FMwebp_.jpg",
     id: 6,
   },
   {

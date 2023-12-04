@@ -300,42 +300,358 @@ const data = [
     id:33
   },
   {
-    catergory:'laptop',
-    name:'',
-    price:'',
-    description:'',
-    rating:'',
-    image:'',
-    id:'34'
+    catergory:'footware',
+    name:'new balance Men 4040 White Cricket Shoes',
+    price:'11,699',
+    description:'High-performance synthetic mesh upper for optimal breathability and lightweight feel Durable rubber outsole with excellent traction for quick movements on the cricket pitch',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/61DnxsDkAqL._SY575_.jpg',
+    id:34
   },
-  {
-    catergory:'',
-    name:'',
-    price:'',
-    description:'',
-    rating:'',
-    image:'',
-    id:18
+   {
+    catergory:'footware',
+    name:'Victor P9200HANG Support Series Professional Badminton Shoes V-Shape2.5',
+    price:'10,115',
+    description:'Mid Sole: Light Resilient EVA + ENERGYMAX 3.0 + TPU + Carbon Power + Solid EVA Outsole:VSR RubberTECHNOLOGIES: LS-S, CARBON POWER, ENERGYMAX3.0, Light Resilient EVA, Breathing, NEO DUPLEX, VSR ANTI-SLIP,V-Tough, ASYS',
+    rating:'4',
+    image:'https://m.media-amazon.com/images/I/51Y50zKB0IL._SX575_.jpg',
+    id:35
   },
 
   {
-    catergory:'',
-    name:'',
-    price:'',
-    description:'',
-    rating:'',
-    image:'',
-    id:18
+    catergory:'footware',
+    name:'Victor P8500II D Support Series Professional Badminton Shoes U-Shape2.5',
+    price:'10,115',
+    description:'Muhammad Ahsan Appointed Shoes. Next-generation stability shoes with superior lateral support compared to its predecessor. Midsole:HYPEREVA + ENERGYMAX3.0 + TPU + Carbon Power + Solid EVA',
+    rating:'4.6',
+    image:'https://m.media-amazon.com/images/I/51v9bcGvnuL._SX575_.jpg',
+    id:36
+  },
+   {
+    catergory:'footware',
+    name:'Nike Mens Air Zoom Vomero 16 Running Shoe',
+    price:'10,225',
+    description:'NIKE AIR ZOOM VOMERO 16-PHOTON DUST/BLACK-LT CRIMSON-WHITE-DA7245-011-9UK',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/71amWzJbv0L._SX625_.jpg',
+    id:37
+  },
+   {
+    catergory:'footware',
+    name:'Nike Unisex-Adult Lebron 19 Basketball Shoe',
+    price:'14,539',
+    description:'Soft And Durable All nike products are meant to deliver high performance, durability and great comfort Warranty details: Contact seller for warranty',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/61T47pYj6JL._SY625_.jpg',
+    id:38
+  },
+   {
+    catergory:'footware',
+    name:'Nike Mens Zoom Vapor Cage 4 Rafa Running Shoes',
+    price:'11,414',
+    description:'ZOOM VAPOR CAGE 4 RAFA-SANDDRIFT/GAME ROYAL-UNIVERSITY BLUE-DD1579-104-11UK',
+    rating:'4.5',
+    image:'https://m.media-amazon.com/images/I/71PAZWsLVEL._SX575_.jpg',
+    id:39
+  },
+   {
+    catergory:'footware',
+    name:'Puma Mens Deviate Nitro 2 Running Shoe',
+    price:'15,999',
+    description:'Style Name:-Running Shoe Model Name:-Deviate Nitro 2 Brand Color:-Ultra Blue-Fire Orchid-Black Material:-TextileCare Instructions:-Wipe with a clean dry cloth',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/51LFOVxIm6L._SY675_.jpg',
+    id:40
+  },
+   {
+    catergory:'footware',
+    name:'Puma Mens Voyage Nitro 3Running Shoe',
+    price:'12,999',
+    description:'Style Name:-Running ShoeModel Name:-Voyage Nitro 3 Brand Color:-Black-Dark Coal',
+    rating:'4.4',
+    image:'https://m.media-amazon.com/images/I/51arvp93pBL._SY675_.jpg',
+    id:41
+  },
+   {
+    catergory:'footware',
+    name:'Puma Mens Pwr Nitro Squared One8Training Shoe',
+    price:'9,799',
+    description:'Style Name:-Training Shoe Model Name:-PWR Nitro Squared One  Brand Color:-Black-White',
+    rating:'3',
+    image:'https://m.media-amazon.com/images/I/51WLkc5MfnL._SY500_.jpg',
+    id:42
+  },
+   {
+    catergory:'footware',
+    name:'Puma Mens Foreverrun Nitro One8Running Shoe',
+    price:'11,999',
+    description:'Style Name:-Running Shoe Model Name:-ForeverRun Nitro One8 Brand Color:-White-Fizzy Lime-Elektro',
+    rating:'3.2',
+    image:'https://m.media-amazon.com/images/I/51UtS6w2eIL._SY675_.jpg',
+    id:43
+  },
+ {
+    catergory:'footware',
+    name:'Puma Mens Velocity Nitro 2 Running Shoe',
+    price:'11,888',
+    description:'Style Name:-Running Shoe Model Name:-Velocity Nitro 2 Brand Color:-Fire Orchid-Black',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/61wLCsmvh1L._SY675_.jpg',
+    id:44
+  },
+   {
+    catergory:'footware',
+    name:'Nike Mens Air Zoom Tempo Next% Fk Running Shoe',
+    price:'14,789',
+    description:'Nike Zoomx Foam In The Footbed Delivers Energy Return As You Move Forward. A Visible Zoom Air Unit Provides Responsive Cushioning, Giving You An Additional Spring With Your Stride.',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/81lXW4jGLgL._SX625_.jpg',
+    id:45
+  },
+   {
+    catergory:'footware',
+    name:'Woodland Mens Gb 2812118sa Ankle Boot',
+    price:'3,967',
+    description:'This product is handmade, and may have slight differences in stitching compared to the image',
+    rating:'4.9',
+    image:'https://m.media-amazon.com/images/I/71VOA7XV4bL._SX575_.jpg',
+    id:46
+  },
+   {
+    catergory:'footware',
+    name:'Woodland Mens Sneaker',
+    price:'2,397',
+    description:'Aero Club,Woodland, Aero Club unit -7 Rajpura Munshi Complex -140401, Rajpura Patiala Punjab',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/81ec0Z+W-BL._SX625_.jpg',
+    id:47
+  },
+   {
+    catergory:'footware',
+    name:'Woodland Mens Camel Leather Casual Shoe-8 UK (42 EU) (OGCC 4373122)',
+    price:'4045',
+    description:'MENS CASUALS LACES',
+    rating:'4.4',
+    image:'https://m.media-amazon.com/images/I/71kf9WcYIlL._SX575_.jpg',
+    id:48
+  },
+   {
+    catergory:'footware',
+    name:'Woodland Mens Gc 4028121 Sneaker',
+    price:'3,000',
+    description:'AERO CLUB, Aero Club unit -7 Rajpura Munshi Complex -140401, Rajpura Patiala Punjab-140401,',
+    rating:'2.7',
+    image:'https://m.media-amazon.com/images/I/81M+MlGcJjL._SX575_.jpg',
+    id:49
+  },
+   {
+    catergory:'footware',
+    name:'Woodland Mens Ogcc 4347022 Sneaker',
+    price:'27,000',
+    description:'MENS CASUALS LACES',
+    rating:'4.6',
+    image:'https://m.media-amazon.com/images/I/71CYCGw-jwL._SX625_.jpg',
+    id:50
+  },
+   {
+    catergory:'headphones',
+    name:'boAt Rockerz 450 Bluetooth',
+    price:'1.699',
+    description:'Playback- It provides a massive battery backup of upto 15 hours for a superior playback time. Charging Time : 3 Hours Drivers- Its 40mm dynamic drivers help pump out immersive HD audio all day long.',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/51xxA+6E+xL._SX425_.jpg',
+    id:51
   },
   {
-    catergory:'',
-    name:'',
-    price:'',
-    description:'',
-    rating:'',
-    image:'',
-    id:18
+    catergory:'headphones',
+    name:'boAt BassHeads 900 On-Ear Wired Headphone with Mic',
+    price:'849',
+    description:'Enjoy powerful, dynamic sound with punchy bass and clear, natural vocals with the responsive 40mm Neodymium drivers, balanced sound for a complete listening experience',
+    rating:'4.4',
+    image:'https://m.media-amazon.com/images/I/61xeIT6UHrL._SX425_.jpg',
+    id:52
   },
+  {
+    catergory:'headphones',
+    name:'boAt BassHeads 100 in-Ear Wired Headphones with Mic (Black)',
+    price:'499',
+    description:'The stylish BassHeads 100 superior coated wired earphones are a definite fashion statement - wear your attitude with its wide variety of collection',
+    rating:'3.5',
+    image:'https://m.media-amazon.com/images/I/719elVA3FvL._SX425_.jpg',
+    id:53
+  },
+  {
+    catergory:'headphones',
+    name:'boAt Bassheads 105 Wired in Ear Earphones with Mic',
+    price:'699',
+    description:'Attend calls, activate voice assistant, access playback and seize complete control of the day’s flow courtesy its in-line mic and one-button control',
+    rating:'4.1',
+    image:'https://m.media-amazon.com/images/I/51fMTxsbz+S._SX425_.jpg',
+    id:54
+  },
+  {
+    catergory:'headphones',
+    name:'boAt Rockerz 255 Pro+ Bluetooth Neckband with Upto 60 Hours Playback',
+    price:'14,999',
+    description:'Playback- Leave all charging worries at bay as the Rockerz 255 Pro+ comes with a humongous battery back up of 60 Hours',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/31HCup1pqFL._SX300_SY300_QL70_FMwebp_.jpg',
+    id:55
+  },
+  {
+    catergory:'headphones',
+    name:'Sony WH-CH520, Wireless On-Ear Bluetooth Headphones',
+    price:'4,490',
+    description:'With up to 50-hour battery life and quick charging, you’ll have enough power for multi-day road trips and long festival weekends.',
+    rating:'4.9',
+    image:'https://m.media-amazon.com/images/I/318RvHnDwHL._SX300_SY300_QL70_FMwebp_.jpg',
+    id:56
+  },
+  {
+    catergory:'headphones',
+    name:'Sony Extra Bass MDR-XB450AP On-Ear Wired Headphones with Mic (Blue)',
+    price:'2,999',
+    description:'Swivel design makes travel easy. Frequency Response- 5–22,000Hz. Wearing Style- Headband, On-ear, DRIVER UNIT: 30mm (Dome Type). Cord length:1.2m',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/61js6Kja89L._SX425_.jpg',
+    id:57
+  },
+  {
+    catergory:'headphones',
+    name:'Sony MDR-ZX110A Wired On Ear Headphone without Mic (White)',
+    price:'5,999',
+    description:'30mm dynamic driver unit for clear sound  High energy neodymium magnets deliver powerful sound Slim, folding design for easy portability',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/41BoLKMYjnL._SY741_.jpg',
+    id:58
+  },
+  {
+    catergory:'headphones',
+    name:'Sony WH-CH520, Wireless On-Ear Bluetooth Headphones with Mic',
+    price:'4,490',
+    description:'With up to 50-hour battery life and quick charging, you’ll have enough power for multi-day road trips and long festival weekends.',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/31QB73-5IEL._SX300_SY300_QL70_FMwebp_.jpg',
+    id:59
+  },
+  {
+    catergory:'headphones',
+    name:'realme Buds T300 Truly Wireless in-Ear Earbuds',
+    price:'2,999',
+    description:'30dB Active Noise Cancellation Upto 40 Hours Total Playback with Fast-charging support of 10 min charging for 7 hours playback',
+    rating:'4',
+    image:'https://m.media-amazon.com/images/I/31uQjRuF5LL._SX300_SY300_QL70_FMwebp_.jpg',
+    id:60
+  },
+  {
+    catergory:'headphones',
+    name:'realme Buds Wireless 2 Neo Bluetooth in Ear Earphones with Mic, Fast Charging & Up to 17Hrs Playtime (Blue)',
+    price:'1,299',
+    description:'USB Type-C Fast Charging (10mins Charge for 120mins Playback) and up to 17 hours Total Playback (at 50% volume)',
+    rating:'4.3',
+    image:'https://m.media-amazon.com/images/I/31BRbBPtfUS._SX300_SY300_QL70_FMwebp_.jpg',
+    id:61
+  },
+  {
+    catergory:'headphones',
+    name:'realme TechLife Buds T100 Bluetooth',
+    price:'1,499',
+    description:'AI Environment Noise Cancellation for callsUpto 28 hrs of Total Playback | Fast charging - 10 min charge gives upto 120 min playback',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/61UW9gEiOSL._SX425_.jpg',
+    id:62
+  },
+  {
+    catergory:'headphones',
+    name:'realme Buds 2 Wired in Ear Earphones with Mic (Blue)',
+    price:'599',
+    description:'Enjoy the powerful 11.2mm bass boost driver which consist of multi-layer composite diaphragm, bringing you a deep and powerful, yet accurate bass response.',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/31fVqcGpzjL._SX300_SY300_QL70_FMwebp_.jpg',
+    id:63
+  },
+  {
+    catergory:'headphones',
+    name:'realme Buds T300 Truly Wireless in-Ear Earbuds with 30dB ANC, 360°',
+    price:'2,999',
+    description:'30dB Active Noise Cancellation Upto 40 Hours Total Playback with Fast-charging support of 10 min charging for 7 hours playback',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/31M3DfshKiL._SX300_SY300_QL70_FMwebp_.jpg',
+    id:64
+  },
+  {
+    catergory:'headphones',
+    name:'realme Buds Air 5 Pro Truly Wireless in-Ear Earbuds',
+    price:'4,999',
+    description:'CHARGE YOUR EARBUDS BEFORE USE - Please charge your earbuds before using for first time. Your headset is shipped in power saver mode. The headset is only 10% charged. Failure to do so may cause connectivity issues.',
+    rating:'5',
+    image:'https://m.media-amazon.com/images/I/61VDKpDS3RL._SX679_.jpg',
+    id:65
+  },
+  {
+    catergory:'headphones',
+    name:'(Refurbished) realme Buds Air 3 True Wireless in-Ear Earbuds with 42dB',
+    price:'3,391',
+    description:'This Renewed product is tested to work and look like new with minimal to no signs of wear & tear; the product comes with relevant accessories and is backed by a minimum six month seller warranty; box may be generic',
+    rating:'4',
+    image:'https://m.media-amazon.com/images/I/61OVqNnFOuL._SX425_.jpg',
+    id:66
+  },
+  // {
+  //   catergory:'headphones',
+  //   name:'',
+  //   price:'',
+  //   description:'',
+  //   rating:'',
+  //   image:'',
+  //   id:51
+  // },
+  // {
+  //   catergory:'headphones',
+  //   name:'',
+  //   price:'',
+  //   description:'',
+  //   rating:'',
+  //   image:'',
+  //   id:51
+  // },
+  // {
+  //   catergory:'headphones',
+  //   name:'',
+  //   price:'',
+  //   description:'',
+  //   rating:'',
+  //   image:'',
+  //   id:51
+  // },
+  // {
+  //   catergory:'headphones',
+  //   name:'',
+  //   price:'',
+  //   description:'',
+  //   rating:'',
+  //   image:'',
+  //   id:51
+  // },
+  // {
+  //   catergory:'headphones',
+  //   name:'',
+  //   price:'',
+  //   description:'',
+  //   rating:'',
+  //   image:'',
+  //   id:51
+  // },
+  // {
+  //   catergory:'headphones',
+  //   name:'',
+  //   price:'',
+  //   description:'',
+  //   rating:'',
+  //   image:'',
+  //   id:51
+  // },
+
 
 ];
 

@@ -52,7 +52,7 @@ const data = [
     price: "27,999",
     description: "17.01 cm (6.7 Inch),12 GB RAM 256 GB ROM,Qualcomm Snapdragon 782G,OxygenOS based on Android 13.1,50MP + 8MP + 2MP Rear Camera,16MP Selfie Camera,5000 mAh Battery and more in the OnePlus Nord CE3 5G 256GB, 12GB RAM, Grey Shimmer, Mobile Phone    ",
     rating: "3.8",
-    image_: "https://lh3.googleusercontent.com/spp/ABYooDqA4ZpPya2ealGq3Yr8zKPasrLpMw0Qz-21G3NBefT0mtpeSItKjleEd9jm2UzLzwCfobs6Ks-6IxW885MA7trQV2Pi2zzZRjCzbwO37BvInfvLswrlFwr_gr3CfqcN-zX7HMCHSKAopheSWsSbxyReYzUtsYKhFr3KeD8jMCBGsuxVt7ytyeLRQbtxtIxN6UjaUTRtFw=s512-rw-pd-pc0x00ffffff",
+    image_: "https://m.media-amazon.com/images/I/61abLrCfF7L._SX679_.jpg",
     id: 6,
   },
   {

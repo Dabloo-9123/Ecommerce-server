@@ -26,7 +26,7 @@ const register=(req,res)=>{
             phone:data.phone
         }
         arr.push(tempobj);
-        res.send(tempobj)
+        res.send("Signup Succesful")
     }
    
     // res.send(hashPassword)

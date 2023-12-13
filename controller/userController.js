@@ -1,4 +1,4 @@
-
+const stripe=require('stripe')("sk_test_51OMl3QSJ2bUiRJKATb3c20e8kAmBY1aH7wYn1HDjVM6cC2I2NabYMdzi0Hpzk4WCtCUnuMxf2FRntC3wphfmx1FP00rIaqMniq")
 const arr=[];
 const bcrypt=require('bcrypt');
 const {database}=require('../confiq/db')
@@ -61,4 +61,27 @@ const login=(req,res)=>{
   
     
 }
-module.exports={register,login}
+const checkout= async (req,res)=>{
+const {products}=req.body;
+console.log(products)
+const lineItems=products.map((product)=>({
+   
+    price_data:{
+        currency:"inr",
+        product_data:{
+            name:product.name
+        },
+        unit_amount:product.price*100,
+    },
+    quantity:product.quantity
+}));
+const session= await stripe.checkout.sessions.create({
+    payment_method_types:["card"],
+    line_items:lineItems,
+    mode:"payment",
+    success_url:"http://localhost:3000/sucess",
+    cancel_url:"http://localhost:3000/cancel"
+})
+res.json({id:session.id})
+}
+module.exports={register,login,checkout}

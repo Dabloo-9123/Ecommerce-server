@@ -6,3 +6,4 @@ const collectdata=(req,res)=>{
 }
 
 module.exports=collectdata;
+

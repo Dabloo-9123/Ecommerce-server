@@ -176,8 +176,8 @@ const session= await stripe.checkout.sessions.create({
     payment_method_types:["card"],
     line_items:lineItems,
     mode:"payment",
-    success_url:'https://ecommerce-s4h.netlify.app/sucess',
-    cancel_url:"http://localhost:3000/cancel"
+    success_url:'https://ecommerce-s4h.netlify.app/',
+    cancel_url:"https://ecommerce-s4h.netlify.app/"
 })
 res.json({id:session.id})
 }

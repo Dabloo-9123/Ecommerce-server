@@ -8,7 +8,7 @@ userRouter.post('/register',register)
 userRouter.post('/login',login)
 userRouter.get('/data',collectdata)
 userRouter.post('/checkout',checkout)
-userRouter.post('/search',collectdata.SearchProduct)
+// userRouter.post('/search',collectdata.SearchProduct)
 module.exports={userRouter}
 
 
